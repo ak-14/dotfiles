@@ -16,6 +16,7 @@ Plug 'mhartington/oceanic-next'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
@@ -108,6 +109,9 @@ nnoremap <leader>q :nohlsearch<CR>
 
 " repeat last commnad
 nnoremap <leader>lc @:
+
+" quit all splits
+nnoremap <leader>qa :qa<CR>
 
 " qq to record, Q to replay
 nnoremap Q @q
