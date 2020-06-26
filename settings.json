@@ -1,0 +1,65 @@
+{
+  "[json]": {
+    "editor.rulers": [
+      120
+    ]
+  },
+  "[markdown]": {
+    "editor.quickSuggestions": false,
+    "editor.rulers": [
+      120
+    ],
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 120
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [
+    80
+  ],
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "explorer.openEditors.visible": 0,
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "afterDelay",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.sass-cache": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/_build/": true,
+    "**/deps/": true,
+    "**/node_modules": true
+  },
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "python.pythonPath": "/usr/local/bin/python3",
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "telemetry.enableTelemetry": false,
+  "vim.disableExtension": false,
+  "vim.enableNeovim": true,
+  "vim.hlsearch": true,
+  "vim.leader": "<Space>",
+  "vim.neovimPath": "/usr/local/bin/nvim",
+  "vim.statusBarColorControl": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#005f5f",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f"
+  },
+  "workbench.colorTheme": "Default Light+",
+  "workbench.editor.highlightModifiedTabs": true
+}

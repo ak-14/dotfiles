@@ -17,6 +17,7 @@ ln -s $HOME/dotfiles/vimrc $HOME/.vimrc
 ln -s $HOME/dotfiles/init.vim $HOME/.config/nvim/init.vim
 ln -s $HOME/dotfiles/gitconfig $HOME/.gitconfig
 ln -s $HOME/dotfiles/gitignore_global $HOME/.gitignore_global
+ln -s $HOME/dotfiles/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
 
 # fzf
 $(brew --prefix)/opt/fzf/install
