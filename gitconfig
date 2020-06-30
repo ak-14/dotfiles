@@ -6,6 +6,8 @@
 [push]
   default = matching
   followTags = true
+[pull]
+  ff = only
 [diff]
   tool = vimdiff
   renames = copies
